@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Gupta</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="assets/images/favicon-light/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <img style="margin-right: 10px; width: 3%;" src="assets/images/favicon-light/favicon-32x32.png" alt="">
+            <a class="navbar-brand" href="#">Yash Gupta</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience-section">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#awards-section">Awards & Recognition</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="btn btn-success px-3 m-1 ms-lg-4" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-shapes"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mx-auto hero-content">
+                    <span class="hero-badge">Available for projects</span>
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Yash Gupta</span></h1>
+                    <p class="hero-subtitle">Full Stack Web Developer</p>
+                    <p class="hero-description">
+                        I transform ideas into powerful web solutions. Specializing in responsive websites and
+                        applications that deliver real results.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#work" class="btn btn-primary btn-hero">
+                            <i class="bi bi-eye-fill me-2"></i>View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-hero">
+                            <i class="bi bi-envelope-fill me-2"></i>Get In Touch
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/yashgupta184" target="_blank" class="social-link"><i
+                                class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/yash-gupta18/ " target="_blank" class="social-link"><i
+                                class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image-container">
+                        <div class="hero-image-wrapper">
+                            <img src="assets/images/Professional_pic.jpg" alt="Yash Gupta" class="hero-image">
+                        </div>
+                        <div class="hero-image-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">About Me</h2>
+                    <!-- <p class="lead mt-4">Passionate developer with a love for creating amazing digital experiences</p> -->
+                </div>
+            </div>
+
+            <!-- About Content -->
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1000&h=800&fit=crop"
+                        alt="Working" class="about-image">
+                </div>
+                <div class="col-lg-6">
+                    <p class="about-text">
+                        Full-stack web developer specializing in modern, scalable applications. With a strong foundation
+                        in AI/ML and data science, I bring intelligent solutions to complex problems.
+                    </p>
+                    <p class="about-text">
+                        When I'm not coding, you'll find me exploring new technologies, contributing to open-source
+                        projects, or sharing knowledge with the developer community. I believe in continuous learning
+                        and staying up-to-date with the latest industry trends.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Skills Grid -->
+            <div class="row mt-5">
+                <div class="col-12 text-center mb-4">
+                    <h3 class="h2">My Skills</h3>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Skill Card 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <i class="bi bi-code-slash skill-icon"></i>
+                            <h4 class="skill-title">Full-Stack</h4>
+                            <p class="skill-description">HTML, CSS, JavaScript, React, Bootstrap, Node.js</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <i class="bi bi-database skill-icon"></i>
+                            <h4 class="skill-title">Database</h4>
+                            <p class="skill-description">MySQL, MongoDB, Firebase</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <i class="bi bi-tools skill-icon"></i>
+                            <h4 class="skill-title">Tools</h4>
+                            <p class="skill-description">Git, AWS, VS Code, Figma</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <i class="bi bi-robot skill-icon"></i>
+                            <h4 class="skill-title">AI Tools</h4>
+                            <p class="skill-description">Python, RoboFlow, YOLO, OpenCV, TensorFlow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS SECTION -->
+    <!-- <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6 stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="col-lg-3 col-6 stat-item">
+                    <div class="stat-number">30+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="col-lg-3 col-6 stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="col-lg-3 col-6 stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Awards Won</div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!--Projects Section-->
+    <section id="work" class="work-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">My Work</h2>
+                    <p class="lead mt-4">Here are some of my recent works</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                        <div class="project-image-wrapper">
+                            <img src="assets/roots_project/2.png" class="project-image"
+                                alt="ROOTS - For a Better Earrh">
+                            <div class="project-overlay">
+                                <span class="project-overlay-text">View Details</span>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title">ROOTS- For a Better Earth</h3>
+                            <p class="project-description">
+                                An eco-innovation project focused on driving community participation for a greener,
+                                cleaner planet.
+                            </p>
+                            <div>
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">MongoDB</span>
+                                <span class="tech-badge">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                        <div class="project-image-wrapper">
+                            <img src="assets/starkseek_website/Screenshot 2025-10-19 182126.png" class="project-image"
+                                alt="Analytics Dashboard">
+                            <div class="project-overlay">
+                                <span class="project-overlay-text">View Details</span>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title">StarkSeek Official Website</h3>
+                            <p class="project-description">
+                                An online platform aimed at fostering continuous learning and upskilling among students
+                                and young professionals
+                            </p>
+                            <div>
+                                <span class="tech-badge">Next.Js</span>
+                                <span class="tech-badge">Tailwind CSS</span>
+                                <span class="tech-badge">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                        <div class="project-image-wrapper">
+                            <img src="assets/marvel_tictactoe/1.png" class="project-image" alt="Fitness Tracker">
+                            <div class="project-overlay">
+                                <span class="project-overlay-text">View Details</span>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title">Marvel Tic-Tac-Toe</h3>
+                            <p class="project-description">
+                                Fun Tic-Tac-Toe game based on Marvels Comics.
+                            </p>
+                            <div>
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Tailwind CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card" data-bs-toggle="modal" data-bs-target="#project4Modal">
+                        <div class="project-image-wrapper">
+                            <img src="assets/Personal_portfolio/3.png" class="project-image" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <span class="project-overlay-text">View Details</span>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-description">
+                                Modern, responsive portfolio website with smooth animations & theme toggle button.
+                            </p>
+                            <div>
+                                <span class="tech-badge">HTML</span>
+                                <span class="tech-badge">CSS</span>
+                                <span class="tech-badge">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <!-- Modal 1 -->
+    <div class="container">
+        <div class="modal fade" id="project1Modal" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">ROOTS - For a Better Earth</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/roots_project/2.png" class="modal-project-image"
+                            alt="ROOTS - For a Better Earrh">
+
+                        <h4 class="modal-section-title">Project Overview</h4>
+                        <p>A community-driven solution aimed at promoting environmental awareness and sustainable
+                            practices. The project engages individuals through interactive campaigns and eco-friendly
+                            challenges to foster a greener lifestyle. It focuses on empowering youth to contribute
+                            toward measurable environmental impact.</p>
+
+                        <h4 class="modal-section-title">Key Features</h4>
+                        <ul>
+                            <li>Responsive design for all devices</li>
+                            <li>Real-time AI verification</li>
+                            <li>Personalized Chatbot and News feed</li>
+                            <li>Verified Eco-Actions</li>
+                            <li>Tracking and reporting of individual and group environmental contributions</li>
+                        </ul>
+
+                        <h4 class="modal-section-title">Technologies Used</h4>
+                        <span class="tech-badge">Next.Js</span>
+                        <span class="tech-badge">Tailwind CSS</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">YOLOv8</span>
+                        <span class="tech-badge">Google Colab</span>
+
+                        <h4 class="modal-section-title">Links</h4>
+                        <a href="https://www.roots4abetterearth.xyz/" class="btn btn-primary project-link-btn"><i
+                                class="bi bi-globe"></i> Live Demo</a>
+                        <a href="#" class="btn btn-dark project-link-btn"><i class="bi bi-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="project2Modal" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Starksekk Official Website</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/starkseek_website/Screenshot 2025-10-19 182126.png" class="modal-project-image"
+                            alt="Analytics Dashboard">
+
+                        <h4 class="modal-section-title">Project Overview</h4>
+                        <p>a web-based learning platform designed to help students and aspiring professionals explore
+                            and enhance technical and entrepreneurial skills. It provides structured content,
+                            interactive modules, and personalized learning paths to facilitate practical knowledge
+                            acquisition. The platform aims to simplify complex topics and foster continuous
+                            self-learning</p>
+                        <h4 class="modal-section-title">Key Features</h4>
+                        <ul>
+                            <li>Interactive modules, quizzes, and hands-on exercises</li>
+                            <li>Personalized learning paths based on user preferences and progress</li>
+                            <li>Rewards System based on points earned</li>
+                            <li>exclusive Merchandise & Rewards</li>
+                        </ul>
+
+                        <h4 class="modal-section-title">Technologies Used</h4>
+                        <span class="tech-badge">Next.Js</span>
+                        <span class="tech-badge">Tailwind CSS</span>
+                        <span class="tech-badge">Firebase</span>
+                        <span class="tech-badge">SQLite</span>
+
+                        <h4 class="modal-section-title">Links</h4>
+                        <a href="https://www.starkseek.com" class="btn btn-primary project-link-btn"><i
+                                class="bi bi-globe"></i> Live Demo</a>
+                        <a href="#" class="btn btn-dark project-link-btn"><i class="bi bi-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3-->
+        <div class="modal fade" id="project3Modal" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Marvel Tic-Tac-Toe</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/marvel_tictactoe/1.png" class="modal-project-image" alt="Analytics Dashboard">
+
+                        <h4 class="modal-section-title">Project Overview</h4>
+                        <p>“Marvel Tic-Tac-Toe” is a themed version of the classic Tic-Tac-Toe game featuring Thor’s
+                            hammer and Captain America’s shield instead of the usual X and O. The game tracks each
+                            player’s wins and losses until the “universe” (game) is reset, adding a fun, continuous
+                            competitive element. It combines engaging visuals with persistent scoring to enhance user
+                            experienc</p>
+
+                        <h4 class="modal-section-title">Key Features</h4>
+                        <ul>
+                            <li>Themed gameplay using Thor’s hammer and Captain America’s shield as markers</li>
+                            <li>Reset option to start a new “universe” while clearing scores</li>
+                            <li>Tracks individual player wins and losses across multiple rounds</li>
+                            <li>Interactive, user-friendly interface with responsive design</li>
+                            <li>Fun animations and Marvel-inspired visuals for immersive experience</li>
+                        </ul>
+
+                        <h4 class="modal-section-title">Technologies Used</h4>
+                        <span class="tech-badge">React.Js</span>
+                        <span class="tech-badge">Tailwind CSS</span>
+                        <span class="tech-badge">Github Pages</span>
+
+                        <h4 class="modal-section-title">Links</h4>
+                        <a href="#" class="btn btn-primary project-link-btn"><i class="bi bi-globe"></i> Live Demo</a>
+                        <a href="#" class="btn btn-dark project-link-btn"><i class="bi bi-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 4 -->
+        <div class="modal fade" id="project4Modal" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Portfolio Design</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/Personal_portfolio/1.png" class="modal-project-image"
+                            alt="Analytics Dashboard">
+
+                        <h4 class="modal-section-title">Project Overview</h4>
+                        <p>Developed a personal portfolio website featuring a modern, responsive design with a
+                            light/dark theme toggle. The website showcases professional skills, projects, and
+                            achievements while providing an integrated contact section for seamless communication. It
+                            focuses on enhancing user experience with intuitive navigation and interactive elements.</p>
+
+                        <h4 class="modal-section-title">Key Features</h4>
+                        <ul>
+                            <li>Switch between light and dark modes using CSS variables</li>
+                            <li>Visual representation of technical and soft skills with progress bars or icons</li>
+                            <li>Interactive cards detailing projects, technologies used, and live/demo links</li>
+                            <li>Export reports as PDF/CSV</li>
+                            <li>Works across desktop, tablet, and mobile devices</li>
+                        </ul>
+
+                        <h4 class="modal-section-title">Technologies Used</h4>
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Bootstrap</span>
+
+                        <h4 class="modal-section-title">Links</h4>
+                        <a href="#" class="btn btn-primary project-link-btn"><i class="bi bi-globe"></i> Live Demo</a>
+                        <a href="#" class="btn btn-dark project-link-btn"><i class="bi bi-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EXPERIENCE TIMELINE SECTION -->
+    <section class="experience-section" id="experience-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Experience</h2>
+                    <p class="lead mt-4">My professional journey and education</p>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <!-- Timeline Item 1 - Right -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Dec 2024 - Present</span>
+                        <h3 class="timeline-title">Full Stack Developer</h3>
+                        <div class="timeline-company">StarkSeek India</div>
+                        <p class="timeline-description">
+                            Leading development of web applications. Architecting scalable solutions,
+                            collaborating with developers, and implementing best practices.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.Js</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Github</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 - Left -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan 2025 - Present</span>
+                        <h3 class="timeline-title">Web Developer</h3>
+                        <div class="timeline-company">IEEE JSS University Branch</div>
+                        <p class="timeline-description">
+                            Developed and maintained client websites and web applications. Collaborated with
+                            design team to create responsive, user-friendly interfaces.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Github</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 - Right -->
+                <!-- <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan 2020 - May 2021</span>
+                        <h3 class="timeline-title">Junior Web Developer</h3>
+                        <div class="timeline-company">StartUp Innovations</div>
+                        <p class="timeline-description">
+                            Built responsive websites and landing pages. Learned modern frameworks and
+                            participated in agile development processes.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Bootstrap</span>
+                            <span class="skill-tag">jQuery</span>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Timeline Item 4 - Left (Education) -->
+                <!-- <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2016 - 2020</span>
+                        <h3 class="timeline-title">Bachelor of Computer Science</h3>
+                        <div class="timeline-company">University Name</div>
+                        <p class="timeline-description">
+                            Graduated with honors. Specialized in Software Engineering and Web Technologies.
+                            Active member of coding club and participated in multiple hackathons.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">GPA: 3.8/4.0</span>
+                            <span class="skill-tag">Dean's List</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <!-- <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Testimonials</h2>
+                    <p class="lead mt-4">What clients and colleagues say about me</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Exceptional developer with great attention to detail. Delivered our project
+                            ahead of schedule with outstanding quality. Highly recommended!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop"
+                                alt="Client" class="author-image">
+                            <div class="author-info">
+                                <h4>John Smith</h4>
+                                <p>CEO, Tech Startup</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Working with them was a pleasure. Great communication, technical expertise,
+                            and problem-solving skills. Will definitely hire again!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
+                                alt="Client" class="author-image">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Marketing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Incredible talent! Transformed our outdated website into a modern,
+                            responsive platform. Our conversion rate increased by 40%!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop"
+                                alt="Client" class="author-image">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>E-commerce Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- ACHIEVEMENTS & AWARDS SECTION -->
+    <section id="awards-section" class="achievements-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Achievements & Awards</h2>
+                    <p class="lead mt-4">Recognition and milestones I'm proud of</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="bi bi-award-fill"></i>
+                        </div>
+                        <h3 class="achievement-title">Grand Finalist</h3>
+                        <div class="achievement-event">IEEE YESIST12 UKM, Malaysia</div>
+                        <div class="achievement-date"><i class="bi bi-calendar-event"></i> August 2025</div>
+                        <p class="achievement-description">
+                            Selected as a Grand Finalist among 3000+ global participants for presenting
+                            technology-driven sustainable solutions addressing real-world environmental challenges.
+                        </p>
+                        <span class="achievement-badge finalist">Grand Finalist</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h3 class="achievement-title">2nd Runner-Up</h3>
+                        <div class="achievement-event">CDAC CyberSecurity Competition</div>
+                        <div class="achievement-date"><i class="bi bi-calendar-event"></i> February 2025</div>
+                        <p class="achievement-description">
+                            Secured 3rd position at CDAC Noida for delivering an innovative cybersecurity solution
+                            within a 7-day challenge, leveraging complex algorithms and strategic problem-solving.
+                        </p>
+                        <span class="achievement-badge gold">Bronze Medal</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="bi bi-laptop-fill"></i>
+                        </div>
+                        <h3 class="achievement-title">Community Leader</h3>
+                        <div class="achievement-event">IEEE ACEI R10 Ambassador</div>
+                        <div class="achievement-date"><i class="bi bi-calendar-event"></i>June 2025</div>
+                        <p class="achievement-description">
+                            Served as IEEE ACEI R10 Ambassador, driving entrepreneurial initiatives and empowering
+                            student innovators across the Asia-Pacific region through IEEE’s global network.
+                        </p>
+                        <span class="achievement-badge finalist">Ambassador</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <!-- <section class="certifications-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Certifications</h2>
+                    <p class="lead mt-4">Professional credentials and verified skills</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <i class="bi bi-patch-check-fill cert-icon"></i>
+                        </div>
+                        <div class="cert-body">
+                            <h3 class="cert-title">AWS Certified Solutions Architect</h3>
+                            <div class="cert-issuer">Amazon Web Services</div>
+                            <div class="cert-date">Issued: Jan 2024 • Valid until: Jan 2027</div>
+                            <a href="#" class="cert-link">
+                                <i class="bi bi-box-arrow-up-right"></i> Verify Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <i class="bi bi-shield-check cert-icon"></i>
+                        </div>
+                        <div class="cert-body">
+                            <h3 class="cert-title">Meta Front-End Developer</h3>
+                            <div class="cert-issuer">Meta (Facebook)</div>
+                            <div class="cert-date">Issued: Sep 2023</div>
+                            <a href="#" class="cert-link">
+                                <i class="bi bi-box-arrow-up-right"></i> Verify Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <i class="bi bi-code-square cert-icon"></i>
+                        </div>
+                        <div class="cert-body">
+                            <h3 class="cert-title">Google UX Design Professional</h3>
+                            <div class="cert-issuer">Google</div>
+                            <div class="cert-date">Issued: Jun 2023</div>
+                            <a href="#" class="cert-link">
+                                <i class="bi bi-box-arrow-up-right"></i> Verify Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="lead mt-4">Have a project in mind? Let's work together!</p>
+                </div>
+            </div>
+
+            <!-- Contact Info Cards -->
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-card">
+                        <i class="bi bi-envelope-fill contact-icon"></i>
+                        <h3 class="contact-title">Email</h3>
+                        <p class="contact-detail">yashgupta18.dev@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-card">
+                        <i class="bi bi-telephone-fill contact-icon"></i>
+                        <h3 class="contact-title">Phone</h3>
+                        <p class="contact-detail">+91-8700774504</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-card">
+                        <i class="bi bi-geo-alt-fill contact-icon"></i>
+                        <h3 class="contact-title">Location</h3>
+                        <p class="contact-detail">Ghaziabad, UP, India</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="form-container">
+                        <form id="contactForm">
+                            <!-- Name Input -->
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Yash Gupta</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                </div>
+                            </div>
+
+                            <!-- Email Input -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                                    <input type="email" class="form-control" id="email" placeholder="abc@example.com"
+                                        required>
+                                </div>
+                            </div>
+
+                            <!-- Subject Input -->
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <select class="form-select" id="subject" required>
+                                    <option value="">Choose a subject...</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="project">Project Proposal</option>
+                                    <option value="job">Job Opportunity</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <!-- Message Textarea -->
+                            <div class="mb-4">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5"
+                                    placeholder="Tell me about your project..." required></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-submit">
+                                    <i class="bi bi-send-fill me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Brand Column -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand">
+                        <h3 class="footer-title">Yash Gupta</h3>
+                        <p class="footer-description">Building digital experiences that make a difference. Full Stack
+                            Developer specialized in creating modern web solutions.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/yashgupta184" target="_blank" class="social-icon">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/yash-gupta18/" target="_blank" class="social-icon">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="mailto:yashgupta18.dev@gmail.com" class="social-icon" aria-label="Email">
+                                <i class="bi bi-envelope-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="bi bi-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="bi bi-chevron-right"></i> About</a></li>
+                        <li><a href="#work"><i class="bi bi-chevron-right"></i> Projects</a></li>
+                        <li><a href="#experience-section"><i class="bi bi-chevron-right"></i> Experience</a></li>
+                        <li><a href="#contact"><i class="bi bi-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="bi bi-code-slash"></i> Web Development</a></li>
+                        <li><a href="#"><i class="bi bi-database"></i> Backend Solutions</a></li>
+                        <li><a href="#"><i class="bi bi-phone"></i> AI Tools Development</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="bi bi-geo-alt"></i>
+                            <span>Ghaziabad, UP, India</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope"></i>
+                            <a href="mailto:yashgupta18.dev@gmail.com">yashgupta18.dev@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-phone"></i>
+                            <a href="tel:+918700774504">+91 8700774504</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-0">© 2025 Yash Gupta. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="mb-0">Designed and Built with <i class="bi bi-heart-fill text-danger"></i> by Yash
+                            Gupta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
